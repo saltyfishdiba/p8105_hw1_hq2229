@@ -76,7 +76,9 @@ mean_results <- tibble(
     error = function(e) paste("ERROR:", e$message)
   ))
 )
+```
 
+```{r mean_calcs, warning=FALSE}
 mean_results
 
 ```
